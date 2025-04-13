@@ -20,10 +20,18 @@ export default {
       '5xl': { min: '2048px' }
     },
     fontFamily: {
-      'poppins': ['Poppins', 'sans-serif'],
+      sans: ['Poppins', 'sans-serif'],
     },
     extend: {
-      colors: {},
+      colors: {
+        primary: {
+          500 : "#343434",
+          400: "#747473",
+          300: "#EDECEB",
+          200: "#F2F0ED",
+          100: "#E5E3E0"
+        }
+      },
       fontSize: {}
     },
   },
