@@ -1,7 +1,7 @@
 import './App.css'
 import Navbar from './components/templates/Navbar.jsx'
 import Hero from './components/sections/Hero.jsx'
-// import Project from './components/sections/Project.jsx'
+import Project from './components/sections/Project.jsx'
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar/>
       <Hero/>
-      {/* <Project/> */}
+      <Project/>
     </>
   )
 }
