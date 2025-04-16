@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    './src/**/*.{js,ts,jsx,tsx}'
-  ],
+  content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     screens: {
       xs: { min: '475px' },
@@ -17,7 +15,7 @@ export default {
       '2xl': { min: '1536px' },
       '3xl': { min: '1760px' },
       '4xl': { min: '1890px' },
-      '5xl': { min: '2048px' }
+      '5xl': { min: '2048px' },
     },
     fontFamily: {
       sans: ['Poppins', 'sans-serif'],
@@ -25,19 +23,32 @@ export default {
     extend: {
       colors: {
         primary: {
-          500 : "#343434",
-          400: "#747473",
-          300: "#EDECEB",
-          200: "#F2F0ED",
-          100: "#E5E3E0"
-        }
+          500: '#635BFF',
+          400: '#A38CFF',
+          300: '#D3BDFF',
+          200: '#E7D6FF',
+          100: '#F7F0FF',
+          50: '#FBF7FF',
+        },
+        neutral: {
+          500: '#00112D',
+          400: '#2A3950',
+          300: '#7B889D',
+          200: '#A6AEBB',
+          100: '#D8DBE0',
+          50: '#F9F9FB',
+        },
+        additional: {
+          white: '#FFFFFF',
+          navy: '#0F2060',
+          purple: 'rgba(99, 91, 255, 0.1)',
+        },
       },
-      fontSize: {}
+      fontSize: {},
     },
   },
   plugins: [
     // eslint-disable-next-line no-undef
-    require('@tailwindcss/forms')
+    require('@tailwindcss/forms'),
   ],
-}
-
+};
