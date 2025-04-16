@@ -7,9 +7,11 @@ function Project() {
     <div id="project" className="bg-primary-300">
       <div className="container mx-auto max-w-[1200px] px-16 py-28">
         <div className="project-header flex flex-col items-center gap-[72px]">
-          <div className='project-header-wrapper flex flex-col items-center gap-8'>
+          <div className="project-header-wrapper flex flex-col items-center gap-8">
             <h2 className="text-5xl font-bold leading-[57.6px] tracking-wide text-primary-500">Projects</h2>
-            <p className='text-lg font-medium text-primary-500'>Have a look at some of the rolled-out projects I'm proud of:</p>
+            <p className="text-lg font-medium text-primary-500">
+              Have a look at some of the rolled-out projects I'm proud of:
+            </p>
           </div>
           <div className="flex flex-col gap-[32px]">
             <div className="project-wrapper grid grid-cols-1 gap-4">
@@ -22,7 +24,12 @@ function Project() {
                   <p className="mb-4 text-base text-primary-400">
                     UX design of the Pokemon project interface. Web app built using React, Vite and TailwindCSS.
                   </p>
-                  <a href="#" className="font-semibold text-blue-600 hover:underline">
+                  <a
+                    href="https://pokemon-tawny-nine.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-blue-600 hover:underline"
+                  >
                     View project
                   </a>
                 </div>
@@ -37,7 +44,11 @@ function Project() {
                   <p className="mb-4 text-base text-primary-400">
                     UX design of the Pokemon project interface. Web app built using React, Vite and TailwindCSS.
                   </p>
-                  <a href="#" className="font-semibold text-blue-600 hover:underline">
+                  <a 
+                  href="https://fundsphere-ashy.vercel.app/"
+                  target='_blank'
+                  rel='noopener noreferrer' 
+                  className="font-semibold text-blue-600 hover:underline">
                     View project
                   </a>
                 </div>
