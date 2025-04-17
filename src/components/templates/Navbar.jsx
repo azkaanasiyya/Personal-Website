@@ -16,17 +16,17 @@ function Navbar() {
             <ul className="flex gap-[44px] text-base font-medium text-white">
               <li>
                 <a href="#plans" className="hover:text-primary-500">
-                  Home
+                  About
                 </a>
               </li>
               <li>
                 <a href="#plans" className="hover:text-primary-500">
-                  Project
+                  Projects
                 </a>
               </li>
               <li>
                 <a href="#testimony" className="hover:text-primary-500">
-                  About
+                  Skills
                 </a>
               </li>
             </ul>

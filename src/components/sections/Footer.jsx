@@ -15,10 +15,10 @@ function Footer() {
             Tell me about your next <br /> project
           </h2>
           <div className="button-wrapper flex flex-row gap-[15px]">
-            <button className="h-[48px] rounded-full bg-neutral-50 px-[24px] py-[8px] text-sm font-medium text-neutral-500 hover:bg-neutral-400">
+            <button className="h-[48px] rounded-full bg-primary-500 px-[24px] py-[8px] text-sm font-medium text-white hover:bg-primary-400">
               Email Me
             </button>
-            <button className="h-[48px] rounded-full border-2 border-neutral-50 px-[24px] py-[8px] text-sm font-medium text-neutral-50 hover:bg-neutral-400">
+            <button className="h-[48px] rounded-full border-2 border-primary-400 px-[24px] py-[8px] text-sm font-medium text-neutral-50 hover:bg-primary-400">
               WhatsApp
             </button>
           </div>

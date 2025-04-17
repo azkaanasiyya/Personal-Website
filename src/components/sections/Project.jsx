@@ -8,7 +8,7 @@ function Project() {
       <div className="container mx-auto max-w-[1200px] px-16 py-28">
         <div className="project-header flex flex-col items-center gap-[72px]">
           <div className="project-header-wrapper flex flex-col items-center gap-8">
-            <h2 className="text-5xl font-bold leading-[57.6px] tracking-wide text-primary-300">Projects</h2>
+            <h2 className="text-5xl font-bold leading-[57.6px] tracking-wide bg-gradient-to-r from-primary-300 to-primary-500 bg-clip-text text-transparent">Projects</h2>
             <p className="text-lg text-white">Have a look at some of the rolled-out projects I'm proud of:</p>
           </div>
           <div className="flex flex-col gap-[32px]">

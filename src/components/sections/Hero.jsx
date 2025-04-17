@@ -6,16 +6,15 @@ function Hero() {
         <div className="hero-wrapper flex items-center justify-between">
           <div className="hero-content flex flex-col gap-6">
             <div className="hero-header flex flex-col gap-2">
-              <p className="font-medium text-primary-400">Hello, I'm Azka!</p>
-              <h1 className="text-7xl font-semibold text-primary-300">
+              <p className="font-medium text-primary-200">Hello, I'm Azka!</p>
+              <h1 className="text-7xl font-semibold bg-gradient-to-r from-primary-300 to-primary-500 bg-clip-text text-transparent">
                 Frontend<br></br>Developer
               </h1>
             </div>
             <div className="hero-text flex flex-col gap-6">
               <p className="max-w-[450px] text-white">
-                I'm a Frontend Developer who loves to create beautiful and functional websites. I'm passionate about
-                learning new technologies and improving my skills. I believe in continuous learning and always striving
-                to become better.
+              Transforming ideas into interactive, pixel-perfect web interfaces.
+              Driven by design systems, performance, and an obsession with clean code.
               </p>
               <div className="button-wrapper flex flex-row gap-[15px]">
                 <button className="h-[48px] rounded-full bg-primary-500 px-[24px] py-[8px] text-sm font-medium text-white hover:bg-primary-400">Get In Touch</button>
