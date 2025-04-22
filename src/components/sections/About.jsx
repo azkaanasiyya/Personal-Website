@@ -9,8 +9,8 @@ function About() {
           <div className="about-image w-1/2">
             <img src={computer} alt="computer" className='w-3/4 h-auto' />
           </div>
-          <div className="about-content flex w-1/2 flex-col gap-5 text-left">
-            <h3 className="text-4xl font-semibold bg-gradient-to-r from-primary-400 to-primary-100 bg-clip-text text-transparent">About Me</h3>
+          <div className="about-content flex w-1/2 flex-col gap-4 text-left">
+            <h3 className="text-3xl font-semibold bg-gradient-to-r from-primary-400 to-primary-100 bg-clip-text text-transparent">About Me</h3>
             <p className="text-white">
               I'm a frontend developer with expertise in building responsive and modern user interfaces using ReactJS
               and TailwindCSS. I also work with Webflow and WordPress to create flexible and visually engaging websites,
