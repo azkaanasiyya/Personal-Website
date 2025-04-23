@@ -8,7 +8,7 @@ function AboutCard({ icon, title, subtitle, variant }) {
       : 'bg-gradient-to-r from-neutral-400 to-neutral-200';
 
   return (
-    <div className={`project-card flex w-full flex-col rounded-[8px] p-6 ${bgClass}`}>
+    <div className={`project-card flex w-full flex-col rounded-[8px] p-6 transition-all hover:scale-105 ${bgClass}`}>
       <Icon src={icon} alt={title} className="mb-2" />
       <Text className="mb-1 text-xl font-semibold">{title}</Text>
       <Text className="text-sm text-neutral-100">{subtitle}</Text>
