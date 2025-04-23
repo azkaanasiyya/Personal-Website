@@ -1,4 +1,4 @@
-import computer from '../../assets/computer.png';
+import computer from '../../assets/waiting.svg';
 import user from '../../assets/user-line.svg';
 import project from '../../assets/suitcase-line.svg';
 import Title from '../atoms/Title';
@@ -11,7 +11,7 @@ function About() {
       <div className="container mx-auto max-w-[1200px] px-16 py-28">
         <div className="about-wrapper flex items-center gap-6">
           <div className="about-image w-1/2">
-            <img src={computer} alt="computer" className="h-auto w-3/4" />
+            <img src={computer} alt="computer" className="h-auto w-[450px]" />
           </div>
           <div className="about-content flex w-1/2 flex-col gap-4 text-left">
             <Title>About Me</Title>

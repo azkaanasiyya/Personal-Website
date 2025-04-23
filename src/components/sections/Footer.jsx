@@ -1,10 +1,10 @@
-// import deal from '../../assets/handshake.png';
+import Button from '../atoms/Button';
+
 function Footer() {
   return (
     <div className="bg-neutral-500">
       <footer className="flex flex-col items-center border-t bg-transparent pb-10">
         <div className="container flex w-full max-w-[1200px] flex-col items-center gap-8 px-24 py-24">
-          {/* <img src={deal} alt="deal" className="mb-4 h-32 w-32" /> */}
           <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" color="white" viewBox="0 0 16 16">
             <path
               fill="currentColor"
@@ -15,12 +15,8 @@ function Footer() {
             Tell me about your next <br /> project
           </h2>
           <div className="button-wrapper flex flex-row gap-[15px]">
-            <button className="h-[48px] rounded-full bg-primary-500 px-[24px] py-[8px] text-sm font-medium text-white hover:bg-primary-400">
-              Email Me
-            </button>
-            <button className="h-[48px] rounded-full border-2 border-primary-400 px-[24px] py-[8px] text-sm font-medium text-neutral-50 hover:bg-primary-400">
-              WhatsApp
-            </button>
+            <Button variant="primary">Email Me</Button>
+            <Button variant="outlined">WhatsApp</Button>
           </div>
         </div>
         <div className="flex w-full max-w-[1200px] flex-col border-t border-neutral-300">
@@ -45,4 +41,5 @@ function Footer() {
     </div>
   );
 }
+
 export default Footer;
