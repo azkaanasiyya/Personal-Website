@@ -1,5 +1,5 @@
 import Text from '../atoms/Text';
-import Heading from '../atoms/Heading';
+import Heading from '../atoms/HeroHeading';
 
 function HeroHeader() {
   return (

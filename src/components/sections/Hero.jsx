@@ -1,4 +1,4 @@
-import hero from '../../assets/cuate.svg';
+import hero from '../../assets/codinggirl.svg';
 import HeroHeader from '../molecules/HeroHeader';
 import HeroText from '../molecules/HeroText';
 import Image from '../atoms/Image';
@@ -12,7 +12,7 @@ function Hero() {
             <HeroHeader />
             <HeroText />
           </div>
-          <Image src={hero} alt="hero" className="h-full" />
+          <Image src={hero} alt="hero" className="h-[420px] w-[420px]" />
         </div>
       </div>
     </section>
