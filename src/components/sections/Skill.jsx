@@ -12,18 +12,18 @@ import laravel from '../../assets/laravel-logo.svg';
 import python from '../../assets/python-logo.svg';
 
 const skills = [
-  { name: 'ReactJS', img: react, border: true },
-  { name: 'TailwindCSS', img: tailwind, border: true },
-  { name: 'Webflow', img: webflow, border: true },
-  { name: 'WordPress', img: wordpress, extraClass: 'bg-neutral-50 rounded-full', border: true },
-  { name: 'HTML', img: html, border: true },
-  { name: 'CSS', img: css, border: true },
-  { name: 'Vite', img: vite, border: true },
-  { name: 'JavaScript', img: js, border: true },
-  { name: 'MySQL', img: mysql, border: true },
-  { name: 'MongoDB', img: mongodb, border: true },
-  { name: 'Laravel', img: laravel, border: true },
-  { name: 'Python', img: python, border: true },
+  { name: 'ReactJS', img: react },
+  { name: 'TailwindCSS', img: tailwind },
+  { name: 'Webflow', img: webflow },
+  { name: 'WordPress', img: wordpress, extraClass: 'bg-neutral-50 rounded-full' },
+  { name: 'HTML', img: html },
+  { name: 'CSS', img: css },
+  { name: 'Vite', img: vite },
+  { name: 'JavaScript', img: js },
+  { name: 'MySQL', img: mysql },
+  { name: 'MongoDB', img: mongodb },
+  { name: 'Laravel', img: laravel },
+  { name: 'Python', img: python },
 ];
 
 function Skill() {
@@ -36,14 +36,14 @@ function Skill() {
               Skills & Technologies
             </p>
           </div>
-          <div className="skill-content grid grid-cols-4 justify-between gap-6">
-            {skills.map(({ name, img, border, extraClass }, i) => (
+          <div className="skill-content grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 ">
+            {skills.map(({ name, img, extraClass }, i) => (
               <div
                 key={i}
-                className={`flex flex-col items-center justify-center rounded-2xl gap-5 p-6 
-                ${border ? 'hover:border hover:border-primary-500' : 'hover:bg-neutral-300'}`}
+                className="flex flex-col items-center justify-center gap-5 rounded-2xl border 
+                           border-transparent p-6 transition-all hover:scale-105 hover:border-primary-500"
               >
-                <img src={img} alt={name} className={`w-12 h-12 ${extraClass || ''}`} />
+                <img src={img} alt={name} className={`h-12 w-12 ${extraClass || ''}`} />
                 <p className="font-medium text-white">{name}</p>
               </div>
             ))}
