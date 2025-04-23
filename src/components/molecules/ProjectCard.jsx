@@ -3,7 +3,7 @@ import LinkText from "../atoms/LinkText";
 
 function ProjectCard({ image, title, description, link }) {
   return (
-    <div className="project-card flex items-center gap-6 rounded-2xl bg-transparent border p-8 shadow-lg">
+    <div className="project-card flex items-center gap-6 rounded-2xl bg-transparent border border-[#FFFFFF1A] p-8">
       <div className="project-image w-1/2">
         <img src={image} alt={title} className="w-full rounded-xl" />
       </div>

@@ -4,7 +4,7 @@ import Button from '../atoms/Button';
 function Footer() {
   return (
     <div className="bg-neutral-500">
-      <footer className="flex flex-col items-center border-t bg-transparent pb-10">
+      <footer className="flex flex-col items-center border-t border-[#FFFFFF1A] bg-transparent pb-10">
         <motion.div
           className="container flex w-full max-w-[1200px] flex-col items-center gap-8 px-24 py-24"
           initial={{ opacity: 0, y: 30 }}
@@ -50,7 +50,7 @@ function Footer() {
         </motion.div>
 
         <motion.div
-          className="flex w-full max-w-[1200px] flex-col border-t border-neutral-300"
+          className="flex w-full max-w-[1200px] flex-col border-t border-[#FFFFFF1A]"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
