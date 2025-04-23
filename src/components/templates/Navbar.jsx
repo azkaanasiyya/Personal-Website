@@ -15,7 +15,7 @@ function Navbar() {
         <div className="navbar-wrapper flex items-center justify-between">
           <div className="logo flex max-w-[138px] items-center space-x-4 font-semibold text-primary-500 lg:max-w-full">
             <a href="#hero">
-              <img src={logoWhite} alt="logo" className="h-10" />
+              <img src={logoWhite} alt="logo" onClick={(e) => handleSmoothScroll(e, '#hero')} className="h-10" />
             </a>
           </div>
 
