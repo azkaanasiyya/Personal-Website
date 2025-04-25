@@ -10,18 +10,19 @@ import js from '../assets/javascript-logo.svg';
 import mongodb from '../assets/mongodb-logo.svg';
 import laravel from '../assets/laravel-logo.svg';
 import python from '../assets/python-logo.svg';
+import { link } from 'framer-motion/client';
 
 export const Skills = [
-  { name: 'ReactJS', img: react },
-  { name: 'TailwindCSS', img: tailwind },
-  { name: 'Webflow', img: webflow },
-  { name: 'WordPress', img: wordpress, extraClass: 'bg-neutral-50 rounded-full' },
-  { name: 'HTML', img: html },
-  { name: 'CSS', img: css },
-  { name: 'Vite', img: vite },
-  { name: 'JavaScript', img: js },
-  { name: 'MySQL', img: mysql },
-  { name: 'MongoDB', img: mongodb },
-  { name: 'Laravel', img: laravel },
-  { name: 'Python', img: python },
+  { name: 'ReactJS', img: react, link: 'https://react.dev/' },
+  { name: 'TailwindCSS', img: tailwind, link: 'https://tailwindcss.com/' },
+  { name: 'Webflow', img: webflow, link: 'https://webflow.com/' },
+  { name: 'WordPress', img: wordpress, extraClass: 'bg-neutral-50 rounded-full', link: 'https://wordpress.org/' },
+  { name: 'HTML', img: html, link: 'https://developer.mozilla.org/en-US/docs/Web/HTML' },
+  { name: 'CSS', img: css, link: 'https://developer.mozilla.org/en-US/docs/Web/CSS' },
+  { name: 'Vite', img: vite, link: 'https://vitejs.dev/' },
+  { name: 'JavaScript', img: js, link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript' },
+  { name: 'MySQL', img: mysql, link: 'https://www.mysql.com/' },
+  { name: 'MongoDB', img: mongodb, link: 'https://www.mongodb.com/' },
+  { name: 'Laravel', img: laravel, link: 'https://laravel.com/' },
+  { name: 'Python', img: python, link: 'https://www.python.org/' },
 ];
