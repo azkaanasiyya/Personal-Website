@@ -3,7 +3,7 @@ import Button from '../atoms/Button';
 
 function Footer() {
   return (
-    <div className="bg-neutral-500">
+    <div id='footer' className="bg-neutral-500">
       <footer className="flex flex-col items-center border-t border-[#FFFFFF1A] bg-transparent pb-10">
         <motion.div
           className="container flex w-full max-w-[1200px] flex-col items-center gap-8 px-24 py-24"
@@ -29,7 +29,7 @@ function Footer() {
             />
           </motion.svg>
           <motion.h2
-            className="mb-10 text-center text-5xl font-semibold leading-tight text-white"
+            className=" text-center text-5xl font-semibold leading-tight text-white"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -44,8 +44,9 @@ function Footer() {
             transition={{ duration: 0.8, delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <Button variant="primary">Email Me</Button>
-            <Button variant="outlined">WhatsApp</Button>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=azkaanasiyya@gmail.com" target='_blank' rel='noopener noreferrer'>
+              <Button variant="primary">Email Me</Button>
+            </a>
           </motion.div>
         </motion.div>
 
@@ -59,15 +60,15 @@ function Footer() {
           <div className="mx-auto mt-10 flex w-full flex-row items-center justify-between gap-4 text-sm text-neutral-50">
             <p>© 2024 All rights reserved.</p>
             <div className="flex gap-2 text-center text-sm text-neutral-50 md:text-right">
-              <a href="#" className="hover:underline">
+              <a href="https://www.linkedin.com/in/azka-anasiyya-544125333/" className="hover:underline" target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </a>
               <span>/</span>
-              <a href="#" className="hover:underline">
-                Dribbble
+              <a href="https://github.com/azkaanasiyya" className="hover:underline" target='_blank' rel='noopener noreferrer'>
+                GitHub
               </a>
               <span>/</span>
-              <a href="#" className="hover:underline">
+              <a href="https://www.instagram.com/azkaanasiyya/?next=%2F" className="hover:underline" target='_blank' rel='noopener noreferrer'>
                 Instagram
               </a>
             </div>

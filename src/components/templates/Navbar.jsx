@@ -27,7 +27,11 @@ function Navbar() {
                 </a>
               </li>
               <li>
-                <a href="#project" onClick={(e) => handleSmoothScroll(e, '#project')} className="hover:text-primary-500">
+                <a
+                  href="#project"
+                  onClick={(e) => handleSmoothScroll(e, '#project')}
+                  className="hover:text-primary-500"
+                >
                   Projects
                 </a>
               </li>
@@ -40,9 +44,12 @@ function Navbar() {
           </div>
 
           <div className="nav-right flex items-center gap-4">
-            <button className="hidden h-[48px] rounded-full bg-primary-500 px-[32px] py-[8px] text-base font-medium text-white hover:bg-primary-400 lg:block">
-              Contact
-            </button>
+            <a href="#footer" onClick={(e) => handleSmoothScroll(e, '#footer')}>
+              <button className="hidden h-[48px] rounded-full bg-primary-500 px-[32px] py-[8px] text-base font-medium text-white hover:bg-primary-400 lg:block">
+                Contact
+              </button>
+            </a>
+
             <i className="ri-menu-line block text-2xl lg:hidden"></i>
           </div>
         </div>
