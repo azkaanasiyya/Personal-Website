@@ -3,8 +3,12 @@ import Heading from '../atoms/Heading';
 import Paragraph from '../atoms/Paragraph';
 import ProjectCard from '../molecules/ProjectCard';
 import Projects from '../../data/Projects';
+import { useState } from 'react';
 
 function Project() {
+  const [showAll, setShowAll] = useState(false);
+  const displayedProjects = showAll ? Projects : Projects.slice(0, 3);
+
   return (
     <div id="project" className="bg-neutral-500">
       <div className="container mx-auto max-w-[1200px] px-16 py-28">
@@ -29,7 +33,7 @@ function Project() {
           </motion.div>
 
           <div className="project-wrapper grid grid-cols-1 gap-4">
-            {Projects.map((project, index) => (
+            {displayedProjects.map((project, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 40 }}
@@ -41,6 +45,14 @@ function Project() {
               </motion.div>
             ))}
           </div>
+
+          <button 
+            className="text-white h-[48px] rounded-full px-[24px] py-[8px] text-sm font-medium bg-primary-500 hover:bg-primary-400"
+            onClick={() => setShowAll(!showAll)}
+          >
+            {showAll ? 'Show Less' : 'View All Projects'}
+          </button>
+        
         </motion.div>
       </div>
     </div>
