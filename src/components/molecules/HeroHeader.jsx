@@ -3,7 +3,7 @@ import Heading from '../atoms/HeroHeading';
 
 function HeroHeader() {
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-3">
       <Text className="text-primary-200">Hello, I'm Azka!</Text>
       <Heading>
         Frontend
